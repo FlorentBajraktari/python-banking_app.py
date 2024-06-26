@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "python banking_app.py",
+			"path": "."
+		},
+		{
+			"name": "banking-app-module2-tasks-2",
+			"path": "../../../Downloads/banking-app-module2-exercises/banking-app-module2-tasks-2"
+		},
+		{
+			"path": "../../../Downloads/banking-app-module3_exercises"
+		},
+		{
+			"path": "../../../Downloads/banking-app-module4_exercises"
+		}
+	],
+	"settings": {}
+}
