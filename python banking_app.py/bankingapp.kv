@@ -1,0 +1,26 @@
+<BankingAppGUI>:
+    orientation: 'vertical'
+    padding: 20
+
+    Label:
+        text: root.owner_label_text
+        size_hint_y: None
+        height: '48dp'
+
+    Label:
+        text: root.balance_label_text
+        size_hint_y: None
+        height: '48dp'
+
+    Spinner:
+        id: action_spinner
+        text: 'Select action'
+        values: ['Deposit', 'Withdraw']
+
+    TextInput:
+        id: amount_input
+        hint_text: 'Enter amount'
+
+    Button:
+        text: 'Perform Action'
+        on_release: root.perform_action()
