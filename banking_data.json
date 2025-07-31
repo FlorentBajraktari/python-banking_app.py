@@ -1,0 +1,124 @@
+{
+  "accounts": {
+    "123456": {
+      "account_number": 123456,
+      "owner_first_name": "Filan",
+      "owner_last_name": "Fisteku",
+      "balance": 1000043.0
+    },
+    "789012": {
+      "account_number": 789012,
+      "owner_first_name": "John",
+      "owner_last_name": "Doe",
+      "balance": 1456.0
+    },
+    "345678": {
+      "account_number": 345678,
+      "owner_first_name": "Jane",
+      "owner_last_name": "Smith",
+      "balance": 750.0
+    },
+    "901234": {
+      "account_number": 901234,
+      "owner_first_name": "Alice",
+      "owner_last_name": "Johnson",
+      "balance": 1200.0
+    },
+    "901235": {
+      "account_number": 901235,
+      "owner_first_name": "Flanja",
+      "owner_last_name": "Fistekja",
+      "balance": 50045000.0
+    }
+  },
+  "transaction_history": [
+    {
+      "timestamp": "2025-07-31 21:47:37",
+      "account_number": 123456,
+      "type": "TRANSFER_FAILED",
+      "amount": 4567.0,
+      "success": false,
+      "error": "Insufficient balance"
+    },
+    {
+      "timestamp": "2025-07-31 21:47:40",
+      "account_number": 123456,
+      "type": "TRANSFER_OUT",
+      "amount": 456.0,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:47:40",
+      "account_number": 789012,
+      "type": "TRANSFER_IN",
+      "amount": 456.0,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:48:44",
+      "account_number": 901235,
+      "type": "ACCOUNT_CREATED",
+      "amount": 95000.0,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:49:35",
+      "account_number": 901235,
+      "type": "WITHDRAWAL",
+      "amount": 50000.0,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:50:03",
+      "account_number": 123456,
+      "type": "DEPOSIT",
+      "amount": 999999.0,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:52:43",
+      "account_number": 901236,
+      "type": "ACCOUNT_CREATED",
+      "amount": 1e+19,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:53:23",
+      "account_number": 901236,
+      "type": "TRANSFER_OUT",
+      "amount": 50000000.0,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:53:23",
+      "account_number": 901235,
+      "type": "TRANSFER_IN",
+      "amount": 50000000.0,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:53:57",
+      "account_number": 901236,
+      "type": "ACCOUNT_DELETED",
+      "amount": 9.99999999995e+18,
+      "success": true,
+      "error": ""
+    },
+    {
+      "timestamp": "2025-07-31 21:54:09",
+      "account_number": 901235,
+      "type": "ACCOUNT_DELETED",
+      "amount": 50045000.0,
+      "success": true,
+      "error": ""
+    }
+  ]
+}
